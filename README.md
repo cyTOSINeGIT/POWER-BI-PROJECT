@@ -1,4 +1,4 @@
-# Project Overview
+# BRIT CONNECT Project Overview
 
 This project focused on analysing network outage performance using Microsoft Power BI to provide a consolidated view of outage incidents, service-level performance, resolution times, and detection times across the network.
 
