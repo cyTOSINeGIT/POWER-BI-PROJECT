@@ -1,3 +1,70 @@
+# Horizon Health Network Bed Capacity & Demand Analysis
+
+## Overview
+
+This Power BI project analyses hospital admissions, bed occupancy, capacity pressure and staffing indicators across Horizon Health Network. The dashboard consolidates operational data into an interactive view designed to support data-driven capacity planning and help move the organisation from reactive to proactive decision-making.
+
+## Business Problem
+
+Horizon Health Network faces uncertainty in bed availability due to fluctuating patient demand, varying occupancy levels and operational constraints. Admissions, bed occupancy and staffing information can be difficult to interpret when viewed separately, limiting early identification of capacity pressure.
+
+## Objectives
+
+* Analyse admission volumes and trends.
+* Compare current and previous-year performance using Delta and YoY measures.
+* Monitor staffed bed occupancy.
+* Identify periods of increased bed pressure.
+* Assess staffing gaps and their potential operational impact.
+* Provide actionable insights to support capacity planning.
+
+## Dashboard Features
+
+The Power BI dashboard includes:
+
+* **Total Admissions** – distinct count of admission records.
+* **Admissions Trend** – visualises changes in admission activity over time.
+* **Delta (Δ)** – shows the absolute change compared with the previous year.
+* **YoY** – shows the percentage change compared with the previous year.
+* **Staffed Bed Occupancy Rate** – measures occupied bed-days relative to staffed bed-days.
+* **Bed Pressure** – highlights periods where available capacity becomes constrained.
+* **Staffing Analysis** – supports assessment of workforce capacity relative to operational demand.
+* **Interactive Filters** – allow users to explore different reporting periods and operational conditions.
+
+## Key Business Insight
+
+The analysis indicates that overall admissions remained relatively stable between 2024 and 2025, while bed utilisation and capacity constraints continued to create operational pressure. This suggests that pressure is not driven solely by increasing patient volumes, but also by the availability and management of staffed bed capacity.
+
+## Business Solution
+
+The dashboard provides a consolidated and repeatable analytical view that can help Horizon Health Network:
+
+* Identify emerging capacity pressure earlier.
+* Improve bed allocation and utilisation.
+* Support proactive staffing decisions.
+* Improve discharge and elective-planning coordination.
+* Reduce reliance on fragmented manual reporting.
+* Support better patient flow and operational efficiency.
+
+## Tools & Technologies
+
+* **Microsoft Power BI**
+* **DAX**
+* Data modelling
+* Interactive dashboard design
+* KPI and trend analysis
+
+## Outcome
+
+The project demonstrates how operational healthcare data can be transformed into decision-ready insight, enabling management to better understand demand, capacity and pressure across the hospital network.
+
+## Repository Contents
+
+* Power BI dashboard
+* Dataset / source data
+* DAX measures
+* Dashboard screenshots
+* Supporting documentation
+
 # BRIT CONNECT Project Overview
 
 This project focused on analysing network outage performance using Microsoft Power BI to provide a consolidated view of outage incidents, service-level performance, resolution times, and detection times across the network.
