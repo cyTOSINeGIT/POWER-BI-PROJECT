@@ -1,3 +1,131 @@
+## NorthBridge Healthcare Operations — Power BI Dashboards
+
+This project uses a healthcare service-ticket dataset to transform operational data into interactive Power BI dashboards covering SLA performance, response and resolution times, agent workload, capacity, client demand, escalations and forecasting.
+
+The data journey was:
+
+Excel → Power Query → SQL → Power BI
+
+The final Power BI solution brings these outputs together into 9 connected dashboards designed to support operational monitoring, investigation and planning.
+
+## Project Objectives
+Monitor SLA performance and breaches
+Understand response and resolution performance
+Analyse agent workload and capacity
+Identify client demand patterns
+Monitor escalations and SLA risk
+Understand monthly and weekday demand
+Forecast future ticket volumes and SLA risk
+Forecast future response and resolution performance
+Turn operational data into clear, business-focused insights
+**The 9 Dashboards**
+**1. Executive Overview**
+
+Provides a high-level view of the overall service operation, including tickets, SLA breaches, compliance, response time and resolution time.
+
+Business question: What is happening across the operation?
+
+**2. Agent Performance & Workload**
+
+Analyses ticket volume, SLA breach rates, workload pressure and recorded capacity across agents.
+
+Business question: Who is handling the workload and where is pressure concentrated?
+
+**3. Workload & Capacity Balancing**
+
+Examines operational demand and capacity across hubs, roles and weekdays.
+
+Business question: Do we have sufficient capacity in the right places?
+
+**4. Client & Sales Performance**
+
+Analyses ticket activity across clients, client types, contract tiers and regions.
+
+Business question: Where is operational demand coming from?
+
+**5. Escalation & SLA Risk**
+
+Provides an overview of escalations, escalation rates, escalation reasons and their relationship with SLA breaches.
+
+Business question: Which tickets are becoming operationally risky?
+
+**6. Escalation Diagnostics**
+
+Provides deeper analysis of escalation patterns across agents, workload, contract tiers and escalation reasons.
+
+Business question: Why are tickets being escalated, and where is the escalation workload going?
+
+**7. Forecasting & SLA Risk**
+
+Uses historical patterns to examine ticket volumes, SLA breaches, breach rates and future weekday demand.
+
+Business question: What demand and SLA risk might come next?
+
+**8. Response & Resolution Trends**
+
+Tracks monthly response and resolution performance over time.
+
+Business question: How efficiently are we responding to and resolving tickets?
+
+**9. Response & Resolution Forecast**
+
+Provides a forward-looking view of expected response and resolution performance.
+
+Business question: What might response and resolution performance look like in the future?
+
+Key Metrics
+Total Tickets: 3,500
+SLA Breaches: 754
+SLA Compliance: 78.46%
+Average Response Time: 5.06 hours
+Average Resolution Time: 40.86 hours
+Agents: 120
+Escalations: 464
+Escalation Rate: 13.26%
+Average Monthly Tickets: 129.63
+Power BI Features Used
+Interactive page navigation
+KPI cards
+Tables and matrices
+Bar and column charts
+Line charts
+Trend analysis
+Conditional formatting
+Forecasting
+Interactive cross-filtering
+Business Story
+
+The 9 dashboards work together as a single operational management view:
+
+Monitor → Detect → Investigate → Predict → Act → Measure
+
+The dashboards help answer:
+
+What is happening?
+Where is workload pressure highest?
+Where is capacity constrained?
+Where is demand coming from?
+Which tickets are becoming risky?
+Why are tickets being escalated?
+What could happen next?
+Data Flow
+Excel
+   ↓
+Power Query
+   ↓
+SQL
+   ↓
+Power BI
+   ↓
+9 Interactive Dashboards
+Tools Used
+
+Power BI | SQL Server | Power Query | Excel
+
+Repository Description
+
+Interactive Power BI dashboards analysing a healthcare service-ticket dataset across SLA performance, workload, capacity, clients, escalations, response and resolution trends, and forecasting.
+
 # Horizon Health Network Bed Capacity & Demand Analysis
 
 ## Overview
